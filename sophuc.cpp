@@ -12,11 +12,7 @@ using namespace std;
                	    cout<<"\t\t==>NHAP PHAN THUC :";
                	    cin>>PhanAo;               	    
 			}
-			void xuat()
-			{
-				cout<<"\t\t==>SO PHUC VUA NHAP LA:"<<endl;
-				cout<<"\t\t==>a = " << PhanThuc<<" + "<<PhanAo<<"*j"<<endl;
-			}
+
 			int getPhanThuc()
 			{
 				return PhanThuc;
@@ -33,7 +29,7 @@ int main()
   {
   	a[i].nhap();
   }
-  cout<<"\t\t==>TONG CUA HAI SO THUC VUA NHAP LA: "
+    cout<<"\t\t==>TONG CUA HAI SO THUC VUA NHAP LA: "
   <<a[0].getPhanThuc() + a[1].getPhanThuc()
   <<" + "<<a[0].getPhanAo() + a[1].getPhanAo() 
   <<"j"<<endl;
@@ -45,7 +41,7 @@ int main()
   <<a[0].getPhanThuc() * a[1].getPhanThuc()
   <<" + "<<a[0].getPhanAo() * a[1].getPhanAo() 
   <<"j"<<endl;
-      cout<<"\t\t==>TICH CUA HAI SO THUC VUA NHAP LA: "
+    cout<<"\t\t==>THUONG CUA HAI SO THUC VUA NHAP LA: "
   <<a[0].getPhanThuc() / a[1].getPhanThuc()
   <<" + "<<a[0].getPhanAo() / a[1].getPhanAo() 
   <<"j"<<endl;	
